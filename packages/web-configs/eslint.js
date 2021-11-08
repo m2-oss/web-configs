@@ -23,12 +23,6 @@ module.exports = {
             'error',
             { groups: [['external', 'internal']], 'newlines-between': 'always-and-inside-groups' },
         ],
-        'no-restricted-imports': [
-            'error',
-            {
-                paths: [{ name: 'axios', message: 'Используй пакет @vtblife/axios' }],
-            },
-        ],
     },
     settings: {
         react: {
